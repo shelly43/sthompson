@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:helvetica;
+    box-sizing:border-box    
+}
+
+h1, h2{
+    margin-bottom:20px
+}
+
+h3{
+    margin:20px 0px;
+}
+
+#logo{
+    margin-bottom:0px;
+    color:#fff;
+    font-family:palatino;
+    padding-left:10px
+}
+
+header{
+    background:#263071;
+    position:relative;
+    padding:10px 0px;
+}
+
+nav{
+    position:absolute;
+    top:18px
+        right:10px;
+    
+}
+nav ul{
+    list-style: none
+    }
+    
+    nav li{
+        display:inline-block;
+    }    
+    
+    nav a{
+        display:block;
+        text-decoration:none;
+        color:#fff;
+        padding:0px 10px;
+    }
+    
+    nav a:hover{
+        color:#6a7587;
+    }
+    
+    .container{
+        max-width: 750px;
+        margin: 0px auto;
+        padding: 100px 0px;
+    }
+    
+    .container:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    
+    #obj{
+        background: url(img/bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .overlay{
+        background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    }
+ 
+.bioimg{
+    width: 25%;
+    float:left;
+}
+    
+.bioimg img{
+    width: 100%;
+}
+
+boitext{
+    width: 75%;
+    float:left;
+    padding: 
+}
+
+#exp{
+    background: url(img/sectionbg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
