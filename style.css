@@ -21,15 +21,15 @@ h3{
 }
 
 header{
-    background:#263071;
+    background:#6A7587;
     position:relative;
-    padding:10px 0px;
+    padding:10px 10px 0px;
 }
 
 nav{
     position:absolute;
-    top:18px
-        right:10px;
+    top:10px;
+    right:10px;
     
 }
 nav ul{
@@ -63,18 +63,26 @@ nav ul{
         clear:both;
     }
     
-    #obj{
+#obj{
         background: url(img/bg.jpg);
         background-size: cover;
         background-attachment: fixed;
+    color: #fff;
+    }
+#exp{
+        background: url(img/bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    color:#fff ;
     }
     
-    .overlay{
-        background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
+    
+.overlay{
+        background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,1));
     }
  
 .bioimg{
-    width: 25%;
+    width:25%;
     float:left;
 }
     
@@ -82,14 +90,9 @@ nav ul{
     width: 100%;
 }
 
-boitext{
+.biotext{
     width: 75%;
     float:left;
-    padding: 
+    padding-left:40px;
 }
 
-#exp{
-    background: url(img/sectionbg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
